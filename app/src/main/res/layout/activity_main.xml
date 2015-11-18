@@ -13,41 +13,35 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/host"
-            android:hint="Enter your ip"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-
 
         <TextView
-
-            android:text="Choose what you need to upload"
-            android:textSize="19sp"
             android:layout_marginTop="20sp"
+            android:textSize="29sp"
+            android:text="Send As: "
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
         <Spinner
-            android:id="@+id/opt"
-            android:layout_marginTop="20sp"
+            android:id="@+id/send"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
+
 
         <Button
 
             android:layout_height="wrap_content"
-            android:layout_marginTop="10sp"
+            android:layout_marginTop="40sp"
             android:layout_width="fill_parent"
             android:text="Get Clipboard Content"
-            android:onClick="getClipBoard"
-
-            />
+            android:onClick="getClipBoard" />
 
         <TextView
             android:id="@+id/clipcont"
-            android:layout_marginTop="20sp"
+            android:layout_marginTop="30sp"
             android:textSize="19sp"
+            android:layout_gravity="center"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 
@@ -55,8 +49,10 @@
             android:id="@+id/clip"
             android:text=""
             android:textSize="14sp"
+            android:layout_gravity="center"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
+
 
     </LinearLayout>
 

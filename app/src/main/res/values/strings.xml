@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Datasync</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    
+    <string-array name="sendas">
+        <item>Text</item>
+        <item>Link</item>
+    </string-array>
+    <string name="title_activity_settings">settings</string>
+    
 </resources>
