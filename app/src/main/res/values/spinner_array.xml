@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="options">
-        <item>Clipboard</item>
-        <item>Downloads</item>
-    </string-array>
-</resources>
